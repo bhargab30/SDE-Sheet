@@ -1,0 +1,59 @@
+.header{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: #363636;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    justify-content: space-between;
+}
+
+.login__logo1{
+    font-size: 28px;
+    font-weight: 1000;
+    font-family: Garamond, serif;
+    color: rgb(255, 255, 255);
+    margin: 20px;
+    
+
+}
+.login__logo1 span{
+    color: #d8570d;
+}
+
+
+.header_optionLineTwo{
+    font-size: 13px;
+    font-weight: 600;
+    
+}
+
+.header_nav{
+   margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_options{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    
+    color: white;
+}
+.header_optionLineOne{
+    font-size: 11px;
+}
+
+.header_optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.userName{
+    color: #96dcee;
+    font-weight: 700;
+    font-size: 13px;
+}
+

@@ -1,0 +1,104 @@
+.leetcodeqstns{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 380px;
+}
+
+.title__leet{
+    font-size: 35px;
+    padding-top: 55px;
+    padding-left: 30px;
+    font-weight: 800;
+    color: white;
+    padding-right: 30px;
+}
+.grid{
+  margin-top: 40px;
+  width: 95%;
+  display: grid;
+  grid-template-columns: repeat(3,minmax(10px,1fr));
+  justify-items: center;
+  row-gap: 40px;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 140px;
+  align-items: center;
+  
+}
+.item{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  
+}
+
+
+.card-service {
+  display: block;
+  height:150px;
+  max-width: 300px;
+  text-align: center;
+}
+
+
+.card-service .header img{
+    width: 95%;
+    object-fit:contain;
+    padding: 20px;
+    
+}
+.card-service .header {
+  height: 200px;
+  max-width: 300px;
+  justify-content: center;
+  padding: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.753);
+}
+.card-service .header:hover{
+    transform: scale(1.03);
+	  transition: all 0.3s ease;
+}
+
+
+.styleLink{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 850px){
+  .title__leet{
+    font-size: 25px;
+    padding-top: 55px;
+    padding-left: 20px;
+    
+    padding-right: 20px;
+}
+}
+
+@media (max-width: 730px){
+  .card-service .header{
+    height: 150px;
+  }
+}
+
+@media (max-width: 550px){
+  .card-service .header{
+    height: 100px;
+  }
+  .title__leet{
+    font-size: 18px;
+    
+}
+.leetcodeqstns{
+    
+  
+  height: 200px;
+}
+}
